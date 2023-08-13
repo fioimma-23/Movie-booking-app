@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".theatre">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Movie Book App"
+        android:textSize="50dp"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/head"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"/>
+
+    <View
+        android:id="@+id/lin"
+        android:layout_below="@id/name"
+        android:layout_width="250dp"
+        android:layout_height="2dp"
+        android:background="@color/cardview_light_background"
+        android:layout_marginTop="4dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/text_view_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/lin"
+        android:text="PAYMENT"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="40dp"/>
+
+    <ImageButton
+        android:id="@+id/ImageButton1"
+        android:layout_width="285dp"
+        android:layout_height="176dp"
+        android:layout_below="@id/text_view_id"
+        android:layout_marginTop="31dp"
+        android:src="@drawable/ic_launcher_background"
+        tools:srcCompat="@drawable/th" />
+
+    <ImageButton
+        android:id="@+id/ImageButton2"
+        android:layout_width="277dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/ImageButton1"
+        android:layout_marginTop="72dp"
+        android:src="@drawable/ic_launcher_background"
+        tools:srcCompat="@drawable/google_pay_featured_1" />
